@@ -1,0 +1,4 @@
+1-Crear tu directorio, NextJS-Django_CRUD
+2-Luego clonas el repositorio local, para luego
+subirlo a tu GitHub, previamente tener su cuenta
+vinculada
