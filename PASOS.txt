@@ -2,3 +2,4 @@
 2-Luego clonas el repositorio local, para luego
 subirlo a tu GitHub, previamente tener su cuenta
 vinculada
+3-Publicar, y dejarlo público el repositorio
