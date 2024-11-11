@@ -52,3 +52,10 @@ para que sirve este codigo
 es para operacion si deseas agregar mas cosas a tu api, en este caso con POST
 revisa que esta false, lo paso a TRUE
 20-hacemos el commit y ahora vamos a frontend
+21.Alguna dependencia no esta funcionando, ya regreso
+listo ya regrese
+listo, parece que mi equipo presento latencia, pero
+ahi esta hacemos el ultimo commit,
+revise la documentación, no esta meramente descriptiva
+pero ayuda al entendiemiento del proyecto
+Saludos
