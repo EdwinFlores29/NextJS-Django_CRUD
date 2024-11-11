@@ -3,3 +3,5 @@
 subirlo a tu GitHub, previamente tener su cuenta
 vinculada
 3-Publicar, y dejarlo público el repositorio
+4-Abrir con el programa PyCharm Profesional, sino lo tiene instalado
+lo descargas de la web, y active el período de 30 días.
