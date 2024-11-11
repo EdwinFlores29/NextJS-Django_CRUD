@@ -5,3 +5,50 @@ vinculada
 3-Publicar, y dejarlo público el repositorio
 4-Abrir con el programa PyCharm Profesional, sino lo tiene instalado
 lo descargas de la web, y active el período de 30 días.
+5-Primero creo carpeta backend, luego la otra carpeta de nombre frontend
+6-Hare primero el desarrollo de backend, luego la parte del frontend.
+7-Abrir terminal, y hacer una variable de entorno, comandos 👇
+mkdir backend
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install django djangorestframework mssql-django django-cors-headers
+7-Revision de las dependencias instaladas
+8-Instalar un proyecto
+9-Instalar una app
+django-admin startproject taskapi .
+python manage.py startapp tasks
+10-Luego revisar las carpetas creadas
+11-Modificar los siguientes archivos
+settings.py --> de taskapi
+models.py --> tasks
+12-Escribir las dependencias dentro del archivo settings.pyr
+13-Modificar la conexion a base de datos, a un SQL Server, y antes crea tu base de datos en
+SQL SERVER
+14-Luego creas tu modelo para hacer la migración a la base de datos, antes creada
+15-Termina y ejecutas los comandos
+python manage.py makemigrations
+python manage.py migrate
+es otra la contraseña, revisar, cuando intento en su caso
+no hay usuarios admin, creas uno, para ver si sale los datos a la base de datos
+16-Ejecutar proyecto backend, con el comando
+python manage.py runserver y probar el usuario que acabas de crear
+CONTROL + C
+cierras el correr el django
+17-Ahora hacemos el commit a nuestro repositorio
+PARA NO HACER TAN LARGO EL VIDEO, VAYAMOS TERMINANDO
+18-Probamos el proyecto y utilizamos postman
+19-Hay una respuesta de parte de GET, llamar un solo id
+actualizar
+para que sirve este codigo
+ @action(detail=True, methods=['POST'])
+    def done(self, request, pk=None):
+        task = self.get_object()
+        task.done = not task.done
+        task.save()
+        return Response( {
+            'status': 'task done' if 't
+
+es para operacion si deseas agregar mas cosas a tu api, en este caso con POST
+revisa que esta false, lo paso a TRUE
+20-hacemos el commit y ahora vamos a frontend
